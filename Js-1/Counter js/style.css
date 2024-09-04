@@ -1,0 +1,22 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#countLabel{
+    font-family:'Permanent Marker';
+    font-size: 10em;
+}
+button{
+    background-color: hsl(127, 94%, 35%);
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    font-size: 1.5em;
+    padding: auto;
+}
+button:hover{
+    background-color: hsl(214, 100%, 56%)
+}

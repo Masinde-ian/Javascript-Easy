@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Weather App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>WEATHER-APP</h1>
+        <form id="weatherForm">
+            <input type="text" class="placeInput" placeholder="Enter the city">
+            <button type="submit">Get</button>
+        </form>
+
+        <div class="card">
+            <h2 class="placeDisplay">Place</h2>
+            <div class="outer">
+                <div class="start">
+                    <p class="emojiTemp">
+                        <span class='weatherEmoji'>🌞</span><span class="temperatureDisplay">20&deg;C</span>
+                    </p>
+                    <p class="humidName">
+                        <span class="name">Sunny</span>
+                        <span class="Humidity">Humidity:70%</span>
+                    </p>
+                </div>
+            </div>
+            
+            
+            <p id="error"></p>
+        </div>
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>

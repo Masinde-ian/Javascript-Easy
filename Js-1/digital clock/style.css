@@ -1,0 +1,24 @@
+body{
+    background-image: url(https://wallpaper.forfun.com/fetch/16/1649074ecd03634e05639d767e131258.jpeg?w=1470&r=0.5625);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#container{
+     display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+}
+#clock{font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(5px);
+    background-color: hsla(0, 0%, 100%, 0.1);
+    width: 100%;
+    text-shadow: 3px 3px 5px hsl(0, 0%, 0%)
+}

@@ -1,0 +1,19 @@
+body{
+    font-family: 'Permanent Marker,Comic Sans',cursive;
+}
+div{
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 3em;
+}
+button{
+    font-size: 2em;
+}

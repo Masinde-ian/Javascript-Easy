@@ -1,0 +1,33 @@
+body{
+    background-color: hsl(0, 0%, 48%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(9, 23, 11);  
+}
+h1{
+    text-shadow: 2px 2px #c6c4c4;
+}
+button{
+    font-size: 6rem;
+    background-color: rgb(0, 157, 255);
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    transition: background-color 0.5s ease;
+}
+button:hover{
+    background-color: hsl(200, 100%, 70%); 
+}
+.player{
+    font-size: 1.2em;
+    color: white;
+}
+#result{
+    font-size: 1.5em;
+}
+.win{
+    color: lightgreen;
+}
+.lose{
+    color: crimson;
+}

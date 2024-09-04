@@ -1,0 +1,12 @@
+#resultImage{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(186, 185, 185);
+    width: fit-content;
+}
+#resultImage img{
+    width: 50px;
+    height: auto;
+    margin: 5px;
+    background-color: transparent;  
+}

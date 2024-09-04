@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#canvas{
+    width: 100vmin;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+button{
+    border: none;
+    background-color: rgb(39, 39, 220);
+    font-size: 1.5rem;
+    margin: 5px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+#easy{
+    background-color: rgb(17, 105, 178);
+}
+#normal{
+    background-color: rgb(20, 184, 20);
+}
+#hard{
+    background-color: rgb(177, 33, 33);
+}
+
